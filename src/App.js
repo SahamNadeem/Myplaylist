@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 let defaultbackgroundcolor = 'white';
@@ -9,7 +8,7 @@ let defaultstyle = {
 class Aggregate extends Component{
   render(){
     return (
-      <div style={{...defaultstyle,display:'inline-block', width:'40%'}}>
+      <div style={{...defaultstyle,display:'inline-block', width:'20%'}}>
         <h3>Text Number</h3>
       </div>
     );
